@@ -63,7 +63,7 @@ public class phantomPDF {
         }
 
         if(printInBackground){
-            System.out.println("[print] Executing non-blocking print job ...");
+            System.out.println("[print] Executing non-blocking print jobb ...");
             resultHandler = new ResultHandler(watchdog);
         }else{
             System.out.println("[print] Executing blocking print job ...");
